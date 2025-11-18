@@ -1,0 +1,170 @@
+﻿/* =======================
+   Estilos globales
+   ======================= */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+}
+
+/* =======================
+   Encabezado
+   ======================= */
+header {
+    background: #0078ff;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* =======================
+   Contenedores principales
+   ======================= */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #0078ff;
+    border-left: 6px solid #0078ff;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+/* =======================
+   Formularios y controles
+   ======================= */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input, select, textarea, .input, .aspNetDisabled {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* =======================
+   Estilos de botones
+   ======================= */
+button, .btn, .btn-warning, .btn-danger {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+/* Botón principal */
+.btn, button {
+    background: #0078ff;
+}
+
+    .btn:hover, button:hover {
+        background: #005fcc;
+    }
+
+/* Botón Modificar */
+.btn-warning {
+    background: #ffb100;
+}
+
+    .btn-warning:hover {
+        background: #e39a00;
+    }
+
+/* Botón Borrar */
+.btn-danger {
+    background: #d9534f;
+}
+
+    .btn-danger:hover {
+        background: #c9302c;
+    }
+
+/* =======================
+   Pie de página
+   ======================= */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    color: #555;
+}
+
+/* =======================
+   GridView ASP.NET
+   ======================= */
+table, .GridView {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    table th {
+        background: #0078ff;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    table td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table tr:hover {
+        background: #f1f1f1;
+    }
+
+/* =======================
+   Barra de Navegación
+   ======================= */
+.navbar {
+    background: #005fcc;
+    padding: 12px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin: 0 25px;
+    }
+
+    .navbar a {
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.2s;
+        padding: 8px 12px;
+        border-radius: 6px;
+    }
+
+        .navbar a:hover {
+            background: #003f9a;
+        }
