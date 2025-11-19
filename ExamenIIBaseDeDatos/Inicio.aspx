@@ -22,7 +22,7 @@
             <ul>
                 <li><a href="Inicio.aspx">Inicio</a></li>
                 <li><a href="Facturacion.aspx">Facturación</a></li>
-                <li><a href="Clientes.aspx">Clientes</a></li>
+                <li><a href="DetalleFactura.aspx">Detalles de la Factura</a></li>
             </ul>
         </nav>
         <div class="container">

@@ -67,19 +67,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Base De Datos\ExamenIIProgramacionIIQuerry.sql" />
     <Content Include="CCS\Main.css" />
-    <Content Include="Clientes.aspx" />
+    <Content Include="DetalleFactura.aspx" />
     <Content Include="Facturacion.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clientes.aspx.cs">
-      <DependentUpon>Clientes.aspx</DependentUpon>
+    <Compile Include="DetalleFactura.aspx.cs">
+      <DependentUpon>DetalleFactura.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Clientes.aspx.designer.cs">
-      <DependentUpon>Clientes.aspx</DependentUpon>
+    <Compile Include="DetalleFactura.aspx.designer.cs">
+      <DependentUpon>DetalleFactura.aspx</DependentUpon>
     </Compile>
     <Compile Include="Facturacion.aspx.cs">
       <DependentUpon>Facturacion.aspx</DependentUpon>
@@ -106,9 +107,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Base De Datos\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
